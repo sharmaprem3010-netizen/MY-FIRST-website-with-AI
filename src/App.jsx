@@ -4,7 +4,7 @@ import { auth, provider, db } from "./firebase";
 import { collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore"; 
 
 // 🛑 SET YOUR ADMIN EMAIL HERE 🛑
-const ADMIN_EMAIL = "your.email@gmail.com"; 
+const ADMIN_EMAIL = "sharmaprem3010@gmail.com"; 
 
 function App() {
   const [user, setUser] = useState(null);
