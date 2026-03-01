@@ -5,7 +5,7 @@ import { collection, addDoc, getDocs, deleteDoc, doc, setDoc, getDoc, updateDoc,
 import { GoogleGenerativeAI } from "@google/generative-ai"; 
 
 // 🛑 IMPORTANT: Paste your actual Google AI Studio API key here
-const GEMINI_API_KEY = "PASTE_YOUR_API_KEY_HERE"; 
+const GEMINI_API_KEY = "AIzaSyCpQuEWovdPnNRgf2AICQ2hY7EgSn_dvFU"; 
 
 // Initialize the official Google Gen AI SDK
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
